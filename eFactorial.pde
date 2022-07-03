@@ -18,7 +18,7 @@ void draw(){
   if (n <= loop){
     for (int i = 0; i <= loop; i++){
       e = (1/(factorial(n)) + e);
-      text("after " + n + " loops, e = " + e, x, y);
+      text("after " + n + " loops, e = " + nf(e, 0, 7), x, y);
       n++;
       y += 50;
       if (y >= 480){
